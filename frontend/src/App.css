@@ -1,0 +1,29 @@
+/* Global enhancements for a clean tech style using Space Grotesk */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --brand: #065f46; /* emerald-800 */
+  --brand-2: #0ea5a4; /* teal-500 */
+  --ink: #0f172a; /* slate-900 */
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+*::selection {
+  background: #a7f3d0; /* emerald-200 */
+}
+
+.font-'Space_Grotesk' {
+  font-family: 'Space Grotesk', ui-sans-serif, system-ui;
+}
+
+pre {
+  line-height: 1.5;
+}
+
+/* Buttons should have smooth but specific transitions */
+button, [role="button"] {
+  transition: background-color 200ms, color 200ms, border-color 200ms;
+}
